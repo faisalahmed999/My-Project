@@ -47,6 +47,13 @@
 
 }
 
+.feature-btn{
+    width: 200px;
+    margin-top: 20px;
+    margin: auto;
+    /* margin-left: 300px; */
+}
+
 main>section {
     margin-top: 120px;
 }
