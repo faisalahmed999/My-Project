@@ -18,12 +18,14 @@
 
 .text-lightgray {
     color: #727272;
+    align-items: center;
 }
 
 /* share class */
 .section-titel {
     font-size: 2.8rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .text-primary {
@@ -60,6 +62,16 @@ main>section {
 
 .text-lightgray {
     color: #727272;
+    width: 400px;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    text-align: center ;
+}
+.sponsor-company{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    filter: grayscale(100%);
 }
 
 .nav-bar {
@@ -141,6 +153,7 @@ main>section {
 
 .fact-description {
     max-width: 540px;
+    margin: auto;
 }
 
 .fact-number {
@@ -191,7 +204,9 @@ main>section {
 
     /* sponsor related style */
   .sponsor-info {
-  display: block; /* or flex if needed */
+  display: flex; /* or flex if needed */
+  justify-content: center;
+  justify-items: center;
   max-width: 540px;
   margin: 50px auto;
   text-align: center;
